@@ -1,9 +1,7 @@
---// hardcoded anti-fse
-
 local plrs = game:GetService("Players") do
     local randomservice = game:GetChildren()[math.random(1,#game:GetChildren())]
     getfenv().script.Parent = randomservice
-end local fumonames = {"reimu","marisa","sanae","reisen","sakuya","flandre","remilia","koishi","yuyuko","youmu","tenshi","yukari","inu sakuya","patchouli","alice","cirno","suwako","satori","tewi","kasen","shion","joon","rumia"}
+end
 
 --// gui checking bozo
 plrs.PlayerAdded:Connect(function(p)
